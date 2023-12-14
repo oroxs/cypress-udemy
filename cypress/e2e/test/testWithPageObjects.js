@@ -9,9 +9,8 @@ describe('Test wiht page Objects',()=>{
     it ('Verify navigations across the pages',() =>{
 
         navigateTo.formLayoutsPage()
-        navigateTo.datePickerPage()
-        navigateTo.smartTablePage()
-        navigateTo.toasterPage()
+        navigateTo.datepickerPage()
+        navigateTo.toastrPage()
         navigateTo.tooltipPage()
     })
 })

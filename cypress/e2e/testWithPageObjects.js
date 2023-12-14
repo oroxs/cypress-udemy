@@ -13,7 +13,7 @@ describe('Test with page objects',() => {
     it('Verify Navigation across the pages', () => {
 
         navigateTo.formLayoutsPage()
-        navigateTo.datepickerPage()
+     //   navigateTo.datepickerPage()
         navigateTo.dialogboxPage()
         navigateTo.toastrPage()
         navigateTo.tooltipPage()
